@@ -29,6 +29,29 @@ body {
    margin-left: auto;
 }
 
-.container {
-   width: 1280px;
+@media screen and (max-width: 767px) {
+   .container {
+      width: 280px;
+      padding-left: 20px;
+      padding-right: 20px;
+      outline: 1px solid blue;
+      }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+   .container {
+      width: 704px;
+      padding-left: 32px;
+      padding-right: 32px;
+      outline: 1px solid green;
+   }
+}
+
+@media screen and (min-width: 1280px) {
+   .container {
+      width: 1248px;
+      padding-left: 16px;
+      padding-right: 16px;
+      outline: 1px solid tomato;
+   }
 }
