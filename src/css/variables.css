@@ -17,4 +17,11 @@
          #fff5f9 37.3%,
          #fe88b3 156.25%);
 
+            /* Добавлены переменные в Hero */
+    --button-green-color-hov: #FFE450;
+    --border-prim-btn: #BBF330;
+           
+          
+          
+
 }
