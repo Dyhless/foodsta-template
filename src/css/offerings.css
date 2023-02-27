@@ -65,6 +65,12 @@
   margin-left: 87px;
 }
 
+.offerings-btn:hover,
+.offerings-btn:focus {
+  background-color: var(--button-green-color);
+  border: 2px solid var(--button-green-color);
+}
+
 .subtitle-item::before {
   content: '';
   display: block;
