@@ -1,3 +1,4 @@
+
 body {
    color: var(--primary-text-color);
    font-size: 16px;
@@ -29,6 +30,29 @@ body {
    margin-left: auto;
 }
 
-.container {
-   width: 1280px;
+@media screen and (max-width: 767px) {
+   .container {
+      max-width: 320px;
+      padding-left: 20px;
+      padding-right: 20px;
+      outline: 1px solid blue;
+      }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+   .container {
+      max-width: 768px;
+      padding-left: 32px;
+      padding-right: 32px;
+      outline: 1px solid green;
+   }
+}
+
+@media screen and (min-width: 1280px) {
+   .container {
+      max-width: 1280px;
+      padding-left: 16px;
+      padding-right: 16px;
+      outline: 1px solid tomato;
+   }
 }
