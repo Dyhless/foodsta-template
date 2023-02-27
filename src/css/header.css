@@ -73,11 +73,10 @@ padding: 10px 0px;
 }
 
 @media screen and (min-width: 768px) {
-  
    .mobile-menu {
       display: none;
    }
- .action-nav {
+   .action-nav {
       display: flex;
       align-items: center;
       margin-left: auto;
