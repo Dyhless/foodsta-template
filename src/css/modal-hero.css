@@ -1,10 +1,5 @@
-body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  color: #2c2c2c;
-}
-
 /* Modal hero */
+
 .backdrop {
   position: fixed;
   top: 0;
