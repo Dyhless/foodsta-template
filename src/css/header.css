@@ -52,18 +52,10 @@ padding: 10px 0px;
 
 
 /* ==================== Mobile menu-burger / Start ==================== */
+ .action-nav {
+      display: none;
+   }
 
-@media screen and (min-width: 479px) {
-   .icon-gg_menu {
-      display: none;
-   }
-   .mobile-menu {
-      display: none;
-   }
-   .action-nav {
-      display: none;
-   }
-}
 
 .mobile-menu {
   display: flex;
@@ -81,11 +73,15 @@ padding: 10px 0px;
 }
 
 @media screen and (min-width: 768px) {
-   .action-nav {
+  
+   .mobile-menu {
+      display: none;
+   }
+ .action-nav {
       display: flex;
       align-items: center;
       margin-left: auto;
-   }
+}
 }
 
 .site-nav {
