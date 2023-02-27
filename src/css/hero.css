@@ -4,7 +4,7 @@
   |============================
 */
 
-/*480px*/
+/* 480px
 .container {
     width: 100vw;
     min-width: 320px;
@@ -17,7 +17,7 @@
   }
   
   /*768px*/
-  @media screen and (min-width: 768px) {
+  /* @media screen and (min-width: 768px) {
     .container {
       width: 100vw;
       min-width: 736px;
@@ -25,24 +25,24 @@
       padding-left: 32px;
       padding-right: 32px;
       margin-right: auto;
-      margin-left: auto;
+      margin-left: auto; */
       /* outline: 2px solid rgb(6, 221, 52); */
     }
   }
   
   /*1280px*/
-  @media screen and (min-width: 1280px) {
+  /* @media screen and (min-width: 1280px) {
     .container {
       width: 100vw;
       width: 1280px;
       padding-left: 16px;
       padding-right: 16px;
       margin-right: auto;
-      margin-left: auto;
+      margin-left: auto; */
       /* outline: 2px solid red; */
     }
   }
-  
+   */
   /*480px*/
   .hero {
     display: block;
