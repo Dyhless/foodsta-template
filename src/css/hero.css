@@ -4,45 +4,6 @@
   |============================
 */
 
-/* 480px
-.container {
-    width: 100vw;
-    min-width: 320px;
-    max-width: 480px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-right: auto;
-    margin-left: auto;
-    /* outline: 2px solid rgb(248, 176, 19); */
-  }
-  
-  /*768px*/
-  /* @media screen and (min-width: 768px) {
-    .container {
-      width: 100vw;
-      min-width: 736px;
-      max-width: 768px;
-      padding-left: 32px;
-      padding-right: 32px;
-      margin-right: auto;
-      margin-left: auto; */
-      /* outline: 2px solid rgb(6, 221, 52); */
-    }
-  }
-  
-  /*1280px*/
-  /* @media screen and (min-width: 1280px) {
-    .container {
-      width: 100vw;
-      width: 1280px;
-      padding-left: 16px;
-      padding-right: 16px;
-      margin-right: auto;
-      margin-left: auto; */
-      /* outline: 2px solid red; */
-    }
-  }
-   */
   /*480px*/
   .hero {
     display: block;
@@ -188,7 +149,7 @@
       align-items: center;
       width: 366px;
       height: 320px;
-      background-image: url(../img/hero/Ellipse_tab@1x.png);
+      background-image: url(./img/hero/Ellipse_tab@1x.png);
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
@@ -217,7 +178,7 @@
       align-items: center;
       width: 608px;
       height: 580px;
-      background-image: url(../img/hero/Ellipse__desk@1x.png);
+      background-image: url(./img/hero/Ellipse__desk@1x.png);
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
@@ -310,13 +271,13 @@
   
   .slider .slick-arrow.slick-prev {
     left: 33px;
-    background: url('../img/hero/arrowleft.png') 0 0 / 100% no-repeat;
+    background: url('./img/hero/arrowleft.png') 0 0 / 100% no-repeat;
   }
   
   @media screen and (min-width: 768px) and (max-width: 1279.98px) {
     .slider .slick-arrow.slick-prev {
       left: -8px;
-      background: url('../img/hero/arrowleft.png') 0 0 / 100% no-repeat;
+      background: url('./img/hero/arrowleft.png') 0 0 / 100% no-repeat;
     }
   }
   
@@ -333,13 +294,13 @@
   
   .slider .slick-arrow.slick-next {
     right: 33px;
-    background: url('../img/hero/arrowright.png') 0 0 / 100% no-repeat;
+    background: url('./img/hero/arrowright.png') 0 0 / 100% no-repeat;
   }
   
   @media screen and (min-width: 768px) and (max-width: 1279.98px) {
     .slider .slick-arrow.slick-next {
       right: -8px;
-      background: url('../img/hero/arrowright.png') 0 0 / 100% no-repeat;
+      background: url('./img/hero/arrowright.png') 0 0 / 100% no-repeat;
     }
   }
   
