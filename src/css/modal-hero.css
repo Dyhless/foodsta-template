@@ -4,7 +4,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: inherit;
+  z-index: 20;
   width: 100%;
   height: 720px;
   background-color: rgba(94, 99, 99, 0.7);
