@@ -39,7 +39,7 @@ body {
       max-width: 320px;
       padding-left: 20px;
       padding-right: 20px;
-      outline: 1px solid blue;
+      /* outline: 1px solid blue; */
       }
 }
 
@@ -48,7 +48,7 @@ body {
       max-width: 768px;
       padding-left: 32px;
       padding-right: 32px;
-      outline: 1px solid green;
+      /* outline: 1px solid green; */
    }
 }
 
@@ -57,7 +57,7 @@ body {
       max-width: 1280px;
       padding-left: 16px;
       padding-right: 16px;
-      outline: 1px solid tomato;
+      /* outline: 1px solid tomato; */
    }
 }
 
