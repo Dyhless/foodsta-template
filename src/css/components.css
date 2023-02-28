@@ -1,11 +1,15 @@
 
 body {
-   color: var(--primary-text-color);
-   font-size: 16px;
+   
    font-family: var(--primary-font);
+   font-size: 16px;
+   line-height: 1.5;
    letter-spacing: 0.02em;
    margin: 0;
+   color: var(--primary-text-color);
 }
+
+
 
 .visually-hidden {
    position: absolute;
@@ -56,3 +60,81 @@ body {
       outline: 1px solid tomato;
    }
 }
+
+/* *Styles for h2 */
+.section-title{
+   font-size: 28px;
+line-height: 1.17;
+}
+
+@media screen and (min-width:768px) {
+   .section-title{
+      font-size: 42px;
+line-height: 1.16;
+   }
+}
+
+/* * Buttons */
+
+.btn{
+   font-weight: 500;
+   font-size: 13px;
+   line-height: 1.5;
+
+}
+
+.green.btn{
+   padding: 6px 18px;
+
+   background-color: var(--button-green-color);
+   border-radius: 30px;
+
+}
+
+.green.btn:hover,
+.green.btn:focus{
+   background-color: var(--yellow-main-color);
+}
+
+.white.btn{
+padding: 10px 22px;
+
+background-color: var(--white-color);
+
+border: 2px solid var( --dark-green-icon-color);
+border-radius: 30px;
+}
+
+.white.btn:hover,
+.white.btn:focus{
+   background-color: var(--button-green-color);
+   border-color: transparent;
+}
+
+.sub-green.btn{
+   padding: 11px 22px;
+
+   background-color: var(--button-green-color);
+   border-radius: 30px;
+}
+
+.sub-green.btn:hover,
+.sub-green.btn:focus{
+   background-color: var(--yellow-main-color);
+}
+
+.sub-white.btn{
+   padding: 11px 22px;
+
+   background-color: var(--white-color);
+
+   border: 0.854167px solid var(--dark-green-icon-color);
+border-radius: 30px;
+}
+
+.sub-white.btn:hover,
+.sub-white.btn:focus{
+   background-color: var(--button-green-color);
+   border-color: transparent;
+}
+
