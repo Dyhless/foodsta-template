@@ -1,10 +1,21 @@
 /* Footer */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width:479px) {
     div.container.footer {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        max-width: 100%;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        background-image: url(../img/Footer_mobile_bg_bottom_3@1x.png), url(../img/Footer_mobile_bg_left_1@1x.png), url(../img/Footer_mobile_bg_right_2@1x.png);
+        background-repeat: no-repeat;
+        background-position: bottom, 0px 135px, top right;
+        box-shadow: 0px -4px 24px rgba(105, 105, 105, 0.1);
+
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    div.container.footer {
+        max-width: 100%;
         padding-top: 60px;
         padding-bottom: 60px;
         background-image: url(../img/Footer_mobile_bg_bottom_3@1x.png), url(../img/Footer_mobile_bg_left_1@1x.png), url(../img/Footer_mobile_bg_right_2@1x.png);
@@ -29,6 +40,7 @@
 
 @media screen and (min-width: 1280px) {
     div.container.footer {
+    max-width: 1280px;
     background-image: url(../img/footer-bg-pic@1x.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
@@ -69,8 +81,9 @@
 @media screen and (max-width: 767px) {
     .top-footer {
         display: flex;
+        justify-content: space-evenly;
         flex-wrap: wrap;
-        gap: 40px;
+        gap: 80px;
         align-items: start;
 }}
 
@@ -81,6 +94,10 @@
         gap: 40px;
         align-items: start;
         margin-bottom: 100px;
+}}
+
+@media screen and (min-width: 1280px) {
+    .top-footer {margin-bottom: 0;
 }}
 
 .footer-menu-ul {
@@ -200,6 +217,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         margin-top: 60px;
         gap: 40px;
 }}
