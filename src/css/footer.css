@@ -192,13 +192,13 @@
 
 .private-policy {
     text-decoration-line: underline;
-    color: #7EB101;
+    color: var(--dark-green-icon-color);
 }
 
 .email-subscribe-field {
     width: 279px;
     height: 42px;
-    border: 1px solid #FFE550;
+    border: 1px solid var(--yellow-main-color);
     border-radius: 30px;
     padding-left: 12px;
 }
@@ -207,8 +207,13 @@
     width: 103px;
     height: 42px;
     background-color: transparent;
-    border: 1px solid #7EB101;
+    border: 1px solid var(--dark-green-icon-color);
     border-radius: 30px;
+}
+
+.footer-btn:hover,
+.footer-btn:focus {
+    border: 1px solid var(--yellow-main-color);
 }
 
 /* Bottom footer */
@@ -246,7 +251,7 @@
     font-size: 12px;
     line-height: 14 / 12;
     text-decoration-line: underline;
-    color: #7EB101;
+    color: var(--dark-green-icon-color);
 
 }
 
