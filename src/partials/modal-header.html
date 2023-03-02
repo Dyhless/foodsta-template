@@ -1,0 +1,33 @@
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button class="btn-modal" data-modal-close type="button">
+        <svg class="modal-close-icon" width="24" height="24">
+          <use href="./images/icons/close-btn.svg"></use>
+        </svg>
+    </button>
+    <div class="modal-form-field">
+        <b class="modal-name">Order Form</b>
+        <form class="modal-form"></form>
+        <ul class="modal-form-list">
+            <li class="input-list">
+                <label class="modal-label" for="name">Name </label>
+                    <input class="modal-input" required id="name" name="name" type="text" placeholder="Your name"
+                    title="The name must be between 3 and 25 characters">
+            
+            </li>
+            <li class="input-list">
+                <label class="modal-label" for="phone">Phone number</label>
+                    <input class="modal-input phone-mask" required id="phone" name="phone" type="tel"
+                    placeholder="+38(0__)___ __ __"
+                     title="This phone must be in the format  099 000 00 00">
+            </li>
+            <li class="input-list">
+                <label class="modal-label" for="email">E-mail </label>
+                    <input class="modal-input" required id="email" name="email" type="email" placeholder="example@mail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
+                    title="Please enter a valid email address">
+            </li>
+        </ul>
+        <button class="modal-form-btn" type="submit">Send</button>
+    </div>
+    </div>
+  </div>
